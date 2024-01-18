@@ -1,0 +1,5 @@
+# Scott's placeholder file
+# using the stash command - can I make this come and go away?
+
+# rebase -i HEAD~2
+
