@@ -20,6 +20,7 @@ Example of `code` insert ...
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 sudo apt update && sudo apt upgrade -y
 ```
 =======
@@ -31,6 +32,11 @@ function test() {
 ```sudo apt update && sudo apt upgrade -y```
 >>>>>>> b489481 (Update README.md)
 
+=======
+sudo apt update && sudo apt upgrade -y
+```
+
+>>>>>>> dd68241 (Update README.md)
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
 <<<<<<< HEAD
