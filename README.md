@@ -14,13 +14,20 @@ An example of a link: [Scott's Start Page](http://sak.free.nf/startpage/)
 
 Text that is NOT a quote
 
-> TExt that is.
+> Text that is.
 
 Example of `code` insert ...
+
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
 
 ```sudo apt update && sudo apt upgrade -y```
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
-This info and more for formatting comes from [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax){:target="_blank"} 
+This info and more for formatting comes from [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+example of the previous but opens in a new tab ... <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" target="_blank" rel="noopener">Here</a> but it doesn't seem to work dammit ...
