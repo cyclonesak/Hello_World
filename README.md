@@ -10,7 +10,7 @@ Talking about the first key point
 
 *Italics* v's **bold** v's plain old text
 
-An example of a link: [Scott's Start Page](http://sak.free.nf/startpage/){target="_blank" rel="noopener"}
+An example of a link: [Scott's Start Page](http://sak.free.nf/startpage/){:target="_blank" rel="noopener"}
 
 Text that is NOT a quote
 
