@@ -14,7 +14,7 @@ An example of a link: [Scott's Start Page](http://sak.free.nf/startpage/)
 
 Text that is NOT a quote
 
-> TExt that is.
+> Text that is.
 
 Example of `code` insert ...
 
@@ -25,5 +25,3 @@ Example of `code` insert ...
 This info and more for formatting comes from [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 example of the previous but opens in a new tab ... <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" target="_blank" rel="noopener">Here</a> but it doesn't seem to work dammit ...
-
-Trying it with the <a href="http://sak.free.nf/startpage/" target="_blank">Start Page</a>
