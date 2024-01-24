@@ -1,5 +1,12 @@
 from datetime import datetime
 
-date_time = datetime.now()
+def sak_TimeStamp():
+    date_time = datetime.now()
+    timeStamp = f'{date_time.strftime("%A %d-%B-%Y %I:%M%P").replace(" 0", " ")}'
+    return timeStamp
 
-print(f'{date_time.strftime("%A %d-%B-%Y %I:%M%P").replace(" 0", " ")}') 
+def main():
+    print(sak_TimeStamp())
+
+if __name__ == '__main__':
+    main()
