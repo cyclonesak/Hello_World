@@ -1,5 +1,77 @@
-# Scott's placeholder file
-# using the stash command - can I make this come and go away?
+'''
+sudo apt-get update
+sudo apt-get install git
 
-# rebase -i HEAD~2
+ git config --global user.name "Your Name"
+ git config --global user.email "your-email@example.com"
+ git config --global core.editor "editor-of-your-choice"
+ git config --global core.editor code #nano
+ git config --list
 
+git init (run from the directory you want to use locally)
+
+git add . (. = all or individual file name)
+
+git commit -m "comment" // git commit -a -m "xyz" (combines the add and commit steps for tracked (previously added) files only)
+
+git branch -M main (renames 'master' to get rid of prompt)
+
+git remote add <nickname_for_repo_on_GitHub> address (don't forget *.git)
+
+git remote -v (lists all the repos you have setup to work with)
+
+git push -u <nickname> main (
+
+git status
+
+git log --oneline
+
+git diff <7 digit id> <7 digit id>
+
+git stash (brings back last save version with the changed version in stash) // git stash pop (brings back last) // git stash list // git stash clear (delete change in stash) // git stash save "xyz" // git stash apply <the number in {x}>
+
+git restore // git restore --staged <file name> (for files that have already gone to git add .) 
+
+git branch (lists, -v for verbose) // git branch <new_branch_name> (creates) // git branch checkout <branch> (switches to that branch) 
+git checkout -b <new_branch_name> (creates new brach and changes to it)
+
+git pull cychw main (copies the latest files from main into the branch you're at - do this before merge)
+
+git merge <sub_branch> (run it from where you wish to merge ie. main) having the file open in vscode you can choose what to keep) then rerun the command again and it should work ...
+
+*** to fix conflicts open the conflicted file and choose the solution that works and save THEN add and commit then rebase ***
+
+git branch -d <sub_branch> (-D deletes it even though its not merged)
+git push <repo_nickname> --delete <sub_branch>
+
+git rebase main (run from sub-branch) then "git checkout main"  and rerun
+
+git rebase -i HEAD~x (do it before you push!)
+
+git revert HEAD~x (or use 7digit id)
+
+git reset --soft <commit_id> or HEAD~ for most recent (soft from commit back to add . (staged) - change is still there)
+
+git reset (unstages whatever was add .)
+
+git reset --hard <7digitid> (changes are gone for good!)
+
+TAGS ->  creats a point for a version or release. (THIS IS A 2 COMMAND PROCESS)
+git tag v0.1 (the current commit) or you can git tag 
+git push <repo_nickname> <tag_name(ie."v0.1")>
+
+git checkout <branch> or <7digitid> of <tag_name>
+
+
+https://betterprogramming.pub/six-rules-for-good-git-hygiene-5006cf9e9e2
+https://kalamuna.atlassian.net/wiki/spaces/KALA/pages/67141637/The+7+Golden+Rules+of+git+hygeine
+
+git clone
+
+You're up to Chapter 10
+
+Other GitHug links that may be interesting:
+https://github.com/karan/Projects
+https://github.com/practical-tutorials/project-based-learning
+
+'''
