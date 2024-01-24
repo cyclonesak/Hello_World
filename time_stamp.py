@@ -6,9 +6,6 @@ def sak_TimeStamp():
     timeStamp = f'{date_time.strftime("%A %d-%B-%Y %I:%M%P").replace(" 0", " ")}'
     return timeStamp
 
-def main():
-    print(sak_TimeStamp())
-
 if __name__ == '__main__':
-    '''This stops the "main" code being run if called from another program'''
-    main()
+    '''This stops the line below being run if called from another program'''
+    print(sak_TimeStamp())
