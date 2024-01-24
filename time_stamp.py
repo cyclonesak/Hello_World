@@ -10,4 +10,5 @@ def main():
     print(sak_TimeStamp())
 
 if __name__ == '__main__':
+    '''This stops the "main" code being run if called from another program'''
     main()
