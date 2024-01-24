@@ -26,4 +26,4 @@ sudo apt update && sudo apt upgrade -y
 
 This info and more for formatting comes from [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-Or you can do it the easy way [using this](https://readme.so/).
+Or you can do it the easy way using [this](https://readme.so/).
