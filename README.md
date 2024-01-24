@@ -10,7 +10,7 @@ Talking about the first key point
 
 *Italics* v's **bold** v's plain old text
 
-An example of a link: [Scott's Start Page](http://sak.free.nf/startpage/){:target="_blank"}
+An example of a link: [Scott's Start Page](http://sak.free.nf/startpage/)
 
 Text that is NOT a quote.
 
@@ -26,4 +26,4 @@ sudo apt update && sudo apt upgrade -y
 
 This info and more for formatting comes from [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-Or you can do it the easy way using <a href="https://readme.so" onclick="window.open(this.href, '_blank'); return false;">this</a> or  window.open('https://readme.so', '_blank');
+Or you can do it the easy way using [README.so](https://readme.so).
