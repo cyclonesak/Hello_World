@@ -68,10 +68,12 @@ https://kalamuna.atlassian.net/wiki/spaces/KALA/pages/67141637/The+7+Golden+Rule
 
 git clone
 
-You're up to Chapter 10
+You're up to Chapter 15
 
 Other GitHug links that may be interesting:
 https://github.com/karan/Projects
 https://github.com/practical-tutorials/project-based-learning
+
+
 
 '''
