@@ -28,11 +28,11 @@ This info and more for formatting comes from [here](https://docs.github.com/en/g
 
 Or you can do it the easy way using [README.so](https://readme.so).
 
-:::mermaid
-pie TD;
-    title "Distribution of Expenses";
-    "Food" : 60;
-    "Rent" : 15;
-    "Entertainment" : 10;
-    "Savings" : 15;
-:::
+```mermaid
+pie
+    title "Distribution of Expenses"
+    "Food" : 60
+    "Rent" : 15
+    "Entertainment" : 10
+    "Savings" : 15
+```
