@@ -30,11 +30,62 @@ Or you can do it the easy way using [README.so](https://readme.so).
 
 # Example of mermaid code
 
-```mermaid
-pie
-    title "Distribution of Expenses"
-    "Food" : 60
-    "Rent" : 15
-    "Entertainment" : 10
-    "Savings" : 15
-```
+:::mermaid
+erDiagram
+    Parlor {
+        ParlorID INT PK
+        Name NVARCHAR(255) NOT NULL
+        Location NVARCHAR(255) NOT NULL
+    }
+
+    Practitioner {
+        PractitionerID INT PK
+        Name NVARCHAR(255) NOT NULL
+        Qualification NVARCHAR(255) NOT NULL
+    }
+
+    Therapy {
+        TherapyID INT PK
+        Name NVARCHAR(255) NOT NULL
+        RequiredEquipment NVARCHAR(255) NOT NULL
+    }
+
+    Equipment {
+        EquipmentID INT PK
+        Name NVARCHAR(255) NOT NULL
+    }
+
+    Booking {
+        BookingID INT PK
+        StartDateTime DATETIME NOT NULL
+        SessionLength INT NOT NULL
+    }
+
+    WorksAt {
+        PractitionerID INT
+        ParlorID INT
+        PRIMARY KEY (PractitionerID, ParlorID)
+    }
+
+    Offers {
+        TherapyID INT
+        ParlorID INT
+        PRIMARY KEY (TherapyID, ParlorID)
+    }
+
+    AvailableAt {
+        EquipmentID INT
+        ParlorID INT
+        PRIMARY KEY (EquipmentID, ParlorID)
+    }
+
+    Parlor ||--o{ WorksAt
+    Practitioner ||--o{ WorksAt
+    Parlor ||--o{ Offers
+    Therapy ||--o{ Offers
+    Parlor ||--o{ AvailableAt
+    Equipment ||--o{ AvailableAt
+    Booking }|--o| Practitioner
+    Booking }|--o| Therapy
+    Booking }|--o| Parlor
+:::
