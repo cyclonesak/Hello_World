@@ -30,7 +30,7 @@ Or you can do it the easy way using [README.so](https://readme.so).
 
 # Example of mermaid code
 
-:::mermaid
+'''mermaid
 erDiagram
     Parlor {
         ParlorID INT PK
@@ -88,4 +88,4 @@ erDiagram
     Booking }|--o| Practitioner
     Booking }|--o| Therapy
     Booking }|--o| Parlor
-:::
+'''
