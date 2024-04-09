@@ -28,6 +28,8 @@ This info and more for formatting comes from [here](https://docs.github.com/en/g
 
 Or you can do it the easy way using [README.so](https://readme.so).
 
+# Example of mermaid code
+
 ```mermaid
 pie
     title "Distribution of Expenses"
