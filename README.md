@@ -27,3 +27,10 @@ sudo apt update && sudo apt upgrade -y
 This info and more for formatting comes from [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 Or you can do it the easy way using [README.so](https://readme.so).
+
+
+graph TD
+    A[Load Balancer] --> B[Web Server 1]
+    A --> C[Web Server 2]
+    B --> D[Database]
+    C --> D
