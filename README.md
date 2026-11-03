@@ -30,10 +30,20 @@ This info and more for formatting comes from [here](https://docs.github.com/en/g
 
 Or you can do it the easy way using [README.so](https://readme.so).
 
+[Mermaid Code](https://mermaid.ai/open-source/) ...
+
 ```mermaid
-graph TD
+flowchart TD
     A[Load Balancer] --> B[Web Server 1]
     A --> C[Web Server 2]
-    B --> D[Database]
-    C --> D[Database]
+    B --> D[(Database)]
+    C --> D
+
+    classDef lb fill:#1565c0,color:#fff,stroke:#0d47a1,stroke-width:3px;
+    classDef web fill:#2e7d32,color:#fff,stroke:#1b5e20,stroke-width:2px;
+    classDef db fill:#ef6c00,color:#fff,stroke:#e65100,stroke-width:3px;
+
+    class A lb;
+    class B,C web;
+    class D db;
 ```
