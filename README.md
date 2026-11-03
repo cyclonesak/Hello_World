@@ -30,8 +30,10 @@ This info and more for formatting comes from [here](https://docs.github.com/en/g
 
 Or you can do it the easy way using [README.so](https://readme.so).
 
-flowchart TD
+```mermaid
+graph TD
     A[Load Balancer] --> B[Web Server 1]
     A --> C[Web Server 2]
-    B --> D[(Database)]
-    C --> D
+    B --> D[Database]
+    C --> D[Database]
+```
